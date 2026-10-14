@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="netstat:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/netstat_jar</output-path>
+    <root id="archive" name="netstat.jar">
+      <element id="module-output" name="netstat" />
+    </root>
+  </artifact>
+</component>
