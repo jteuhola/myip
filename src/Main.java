@@ -7,11 +7,11 @@ import java.net.http.HttpClient;
 
 /* to install / update:
 mkdir -p ~/.local/lib ~/.local/bin
-cp /home/NAME/IdeaProjects/netstat/out/artifacts/netstat_jar/netstat.jar ~/.local/lib/netstat.jar
+cp /home/NAME/IdeaProjects/myip/out/artifacts/myip_jar/myip.jar ~/.local/lib/myip.jar
 
 cat > ~/.local/bin/myip << 'EOF'
 #!/bin/sh
-exec java -jar "$HOME/.local/lib/netstat.jar" "$@"
+exec java -jar "$HOME/.local/lib/myip.jar" "$@"
 EOF
 chmod +x ~/.local/bin/myip
 

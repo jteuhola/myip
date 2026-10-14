@@ -10,7 +10,7 @@ command -v java >/dev/null 2>&1 || { echo "Java 17+ is required." >&2; exit 1; }
 
 mkdir -p "$LIB" "$BIN"
 curl -fsSL -o "$LIB/$NAME.jar" \
-  "https://github.com/$REPO/releases/latest/download/netstat.jar"
+  "https://github.com/$REPO/releases/latest/download/myip.jar"
 
 cat > "$BIN/$NAME" <<EOF
 #!/bin/sh
