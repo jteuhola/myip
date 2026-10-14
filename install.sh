@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-REPO="/jteuhola/myip"
+REPO="jteuhola/myip"
 NAME="myip"
 LIB="$HOME/.local/lib"
 BIN="$HOME/.local/bin"
